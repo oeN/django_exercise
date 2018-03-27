@@ -19,4 +19,4 @@ class TodoModelTest(TestCase):
     """
     project = Project(name="Awesome project")
     todo = Todo(title="My first todo", project=project)
-    self.assertEqual(str(project), 'Awesome project - My first todo')
+    self.assertEqual(str(todo), 'Awesome project - My first todo')
