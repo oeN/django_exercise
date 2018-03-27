@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from .models import Project, Todo
+from todo.models import Project, Todo
 
 class ProjectModelTest(TestCase):
 
